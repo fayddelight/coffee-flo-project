@@ -65,7 +65,7 @@ export default class Menu extends Component {
               {this.state.coffeeItems.map(({ node }) => {
                 return (
                   <div
-                    key="{node.id}"
+                    key={node.id}
                     // add sth like col-10 col-sm-8 col-md-6 col-lg-4 mx-auto my-3 for the menu!!!
                     className="col-11 col-md-6 my-3 d-flex mx-auto"
                   >
