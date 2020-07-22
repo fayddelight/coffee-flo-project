@@ -14,7 +14,7 @@ const getProducts = graphql`
           media {
             fluid(maxHeight: 426) {
               src
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid
             }
           }
         }
